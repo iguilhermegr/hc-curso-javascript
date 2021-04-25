@@ -119,8 +119,7 @@ if (cor2 === "verde") {
 
 // -)Page1
 
-// >>>>>> CONTINUAR NO MINUTO 25:52 DA PRIMEIRA INTRODUÇÃO <<<<<<
-// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 // §Introdução2 Segunda aula de introdução ao curso
 
