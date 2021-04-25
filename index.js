@@ -4,9 +4,9 @@
 
 const olaMundo1 = "Hello World One!";
 
-var olaMundo2 = "Hello World Two!";
+let olaMundo2 = "Hello World Two!";
 
-let olaMundo3 = "Hello World Three!";
+var olaMundo3 = "Hello World Three!";
 
 console.log(`${olaMundo1} / ${olaMundo2} / ${olaMundo3}`);
 
