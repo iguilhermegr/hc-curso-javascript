@@ -51,7 +51,6 @@ console.log(a !== b);
  * O Operador parecido com o igual mas com a característica de ver a diferença entre duas expressões
 */
 
-
 // ^)Page3
 
 // Operadores Lógicos
@@ -95,7 +94,7 @@ if (cor1 === "verde") {
 
 // Mais de um if com else if
 
-let cor2 = "amarelo";
+let cor2 = "azul";
 
 if (cor2 === "verde") {
     
@@ -119,7 +118,55 @@ if (cor2 === "verde") {
 
 // -)Page1
 
+// Com o Switch podemos diminuir nosso bloco de código do if e else para um código com um controle melhor de fluxo
+// Com o Switch iremos passar uma expressão pra ele analisar e com a aquela expressão analisada terá possivéis casos ou "cases" que iram haver e as ações naqueles determinados casos avaliados sobre aquela expressão
 
+let cor3 = "azul";
+
+switch (cor3) {
+
+    case "verde":
+        console.log("Siga!");
+    break;
+
+    case "amarelo":
+        console.log("Atenção!");
+    break;
+
+}
+
+// Aqui temos a variável cor3 e dentro do Switch nos parâmetros ele avalia a expressão e cria casos, e se casos(case) for igual a tal expressão ou for verdadeira e ele vai executar tal ação
+// Agora vale lembrar que se caso você quer que seu case avalie uma expressão e pare ali, use o "break;" pois sem ele mesmo avaliando aquele caso o código continuará sendo executado normamlmente
+
+let cor4 = "azul";
+
+switch (cor4) {
+
+    case "verde":
+        console.log("Siga!");
+    break;
+
+    case "amarelo":
+        console.log("Atenção!");
+    break;
+
+    default:
+        console.log("Não consegui identificar...")
+    
+}
+
+// Aqui nessa nova linha de casos teremos o melhor controle de fluxo pois caso nenhuma dos casos passados ali for verdade, o Switch irá executar algo padraõ, o "default".
+// Assim sendo que o "default" faz o mesmo trabalho do else assim sendo que se nada for executado, o default será executado
+
+//⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯ 
+
+// =) Laços de Repetição
+
+// =)Page 1
+
+// Continuar no Minuto 29:43 da Primeira Aula de Introdução
+
+//⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯ 
 
 // §Introdução2 Segunda aula de introdução ao curso
 
