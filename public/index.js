@@ -164,7 +164,21 @@ switch (cor4) {
 
 // =)Page 1
 
-// Continuar no Minuto 29:43 da Primeira Aula de Introdução
+// For
+// O "for" servirá para toda vez que você quiser repetir um trecho de código tanto se você souber quantas vezes você irá repetir esse trecho de código tanto de você não souber quantas vezes irá repetir iremos usar o "for"
+// Se caso você já saiba quantas vezes irá se repetir esse trecho de código, você irá criar um for com 3 instruções: 1 - É de onde ele se inicia. 2 - Até quando ele vai executar esse código. E 3 - Qual será o incremento dessa varável
+
+// Array
+// Array é para percorrer um trecho de código e a cada index que se achar em um "array" ele irá executar algo e para cada index que iremos achar usaremos então o "forEach"
+
+// ForIn
+// Para percorrermos nomes de objetos iremos usar o "forIn". Ou seja, para cada chave ou cada atributo de um objeto que ele achar ele irá executar alguma coisa
+
+// Break
+// Para se caso queira interromper o "Laço de Repetição" que é o caso do "for, o array, o forEach e forIn" iremos usar o "break" muito parecido com o Switch mas agora em nossos laços iremos colocar condições if dentro de nosso for para que haja o break
+
+// Continue
+// Em nossos laços de Repetição estamos percorrendo trechos de código mas se caso queira pular determinado dado a partir de uma ação em seu código iremos usar o "continue"
 
 //⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯ 
 
