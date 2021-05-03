@@ -9,8 +9,8 @@ _Não conhece esse curso? 😮 Então, [acessse já](https://www.udemy.com/cours
 
 ### **・OBS: 🌐 Esse repositório é atualizado toda semana então fique ligado**
 
-<img align="center" alt="Hcode Treinamentos" width="415px" height="370px" src="https://cdn.discordapp.com/attachments/785272306720047116/835889153957691392/hcodeIcon.png">
+<img align="center" alt="Hcode Treinamentos" width="415px" height="390px" src="https://cdn.discordapp.com/attachments/785272306720047116/835889153957691392/hcodeIcon.png">
 
 ```diff
-! Feito por Guilherme Ribeiro
+! Feito por Guilherme Ribeiro !
 ```
