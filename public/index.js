@@ -162,10 +162,10 @@ switch (cor4) {
 
 // =) Laços de Repetição
 
-// =)Page 1
+// =) Page 1
 
 // For
-// O "for" servirá para toda vez que você quiser repetir um trecho de código tanto se você souber quantas vezes você irá repetir esse trecho de código tanto de você não souber quantas vezes irá repetir iremos usar o "for"
+// O "for" servirá para toda vez que você quiser repetir um trecho de código tanto se você souber quantas vezes você irá repetir esse trecho de código tanto de você não souber quantas vezes irá repetir, iremos usar o "for"
 // Se caso você já saiba quantas vezes irá se repetir esse trecho de código, você irá criar um for com 3 instruções: 1 - É de onde ele se inicia. 2 - Até quando ele vai executar esse código. E 3 - Qual será o incremento dessa varável
 
 // Array
@@ -180,11 +180,28 @@ switch (cor4) {
 // Continue
 // Em nossos laços de Repetição estamos percorrendo trechos de código mas se caso queira pular determinado dado a partir de uma ação em seu código iremos usar o "continue"
 
+let n = 5;
+
+for(let i = 0; i <= 10; i++) {
+
+    console.log(`${i} x ${n} = ${i*n}`);
+    // Aqui temos como prática o laço de repetição mais comum do JavaScript, ou seja, o "Template String". No Template String podemos pular linhas ao fazer ou trazer códigos junto de strings
+
+    console.log(i + "x" + n + "=" + (i * n));
+    // Já no código abaixo temos o jeito mais antigo de se executar um código junto de uma string que seria por concatenações. Já aqui não podemos pular linhas ao trazer códigos junto de strings
+
+}
+
 //⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯ 
 
 // §Introdução2 Segunda aula de introdução ao curso
 
-function calc(x1, x2, operator){
+// %) Funções
+
+// No JavaScript podemos criar blocos de códigos que podem ser usados, ou invocados diversas vezes durante o seu código; assim aproveitando muitos blocos ou trechos de códigos.
+// Pra isso é usada as "Funções" ou como é feita no JS "functions"
+
+/* function calc(x1, x2, operator){
 
     return eval(`${x1} ${operator} ${x2}`);
     
@@ -192,4 +209,6 @@ function calc(x1, x2, operator){
 
 let resultado = calc(1, 2, "+");
 
-console.log(resultado)
+console.log(resultado) */
+
+// EM BREVE...
