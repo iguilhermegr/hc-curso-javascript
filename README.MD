@@ -12,7 +12,7 @@
 
 <div align="center">
     <h3><b>Para ficar ligado e não perder nada, na comunidade abaixo do Discord para saber dos próximos commits</b></h3>
-    <img src="https://img.shields.io/discord/832967859889242112.svg?style=flat-square&logo=discord&label=✨%20Guilherme's%20Space&message=Guilherme%20Ribeiro%238639&color=62b4ef" alt="Discord Server" />
+    <img src="https://img.shields.io/discord/832967859889242112.svg?style=flat-square&logo=discord&label=Guilherme's%20Space&message=Guilherme%20Ribeiro%238639&color=62b4ef" alt="Discord Server" />
 </div>
 
 <img align="center" alt="Hcode Treinamentos" width="415px" height="390px" src="https://cdn.discordapp.com/attachments/785272306720047116/835889153957691392/hcodeIcon.png">
