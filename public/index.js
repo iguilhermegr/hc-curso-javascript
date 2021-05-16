@@ -201,14 +201,54 @@ for(let i = 0; i <= 10; i++) {
 // No JavaScript podemos criar blocos de códigos que podem ser usados, ou invocados diversas vezes durante o seu código; assim aproveitando muitos blocos ou trechos de códigos.
 // Pra isso é usada as "Funções" ou como é feita no JS "functions"
 
-/* function calc(x1, x2, operator){
+// Junto das funções iremos ter os parâmetros que estarão entre parêteses. Mas nem sempre uma função irá precisar ter parâmetros, mas se caso haja parâmetros, teremos de respeitar esses parâmetros
+
+// Temos 3 tipos de funções:
+
+// A função comum que têm o nome reservado function
+
+// A função anônima na qual criamos para executar determinada ação com aquele bloco de código mas não podemos chamá-la por nome
+
+// E a "ArrowFunction", na qual teremos um meio mais fácil e com maiores recursos e alguns expecíficos para essa função
+
+function somar(x1, x2){
+// Acima declaramos que esse é um bloco de código para uma função e tendo os parâmetros
+
+    return x1 + x2;
+    // Com o "return" nós dizemos o que o JavaScript irá retornar a aplicação, sendo no exemplo acima, o valor de x1 + x2
+
+}
+
+let resultado1 = somar(1, 2);
+// Aqui armazenamos, ou dizemos o valor que queremos que a seja somado como foi criada a nossa função para ser feita este calculo
+
+console.log(resultado1);
+
+// Então por aqui temos um exemplo de soma usando a mais comum função
+
+function calc(x1, x2, operator){
+    // Primeiramente já mudamos o nome da nossa function para "calc", uma vez que não iremos apenas somar, mas sim calcular um valor
+    // Agora nos parâmetros temos o "operator" que será o operador para realizar a nossa conta
 
     return eval(`${x1} ${operator} ${x2}`);
+    // Neste novo return mudamos o valor ou o que seria retornado para a aplicação, ou o que eu quero que ele valide, usando o eval para validar o conteúdo da nossa "TemplateString"
     
 }
 
-let resultado = calc(1, 2, "+");
+let resultado2 = calc(1, 2, "-");
 
-console.log(resultado) */
+console.log(resultado2);
 
-// EM BREVE...
+// Para tornarmos essa função um tanto mais completa, teremos agora uma verdadeira calculadora tendo agora um operador
+
+(function(x1, x2, operator){
+
+    return eval(`${x1} ${operator} ${x2}`);
+
+})(1, 2, "*");
+
+// Uma função diferente não?
+// Essa é a "função anônima"
+// Nela fazemos uma função, ou um bloco de código para ser executado no momento em que ela é criada. Assim, não damos nome a ela, pois ela está no anonimato, e colocamos um parênteses para indicar que ela é um valor. Logo após fechá-la com parênteses, abrimos o outro parênteses para executar aquela determinada função
+
+// EM BREVE A EXPLICAÇÃO E NOTAS DA ARROW FUNCTION...
