@@ -4,11 +4,11 @@
     <p><u>Não conhece esse curso? 😮 Então, <a href="https://www.udemy.com/course/javascript-curso-completo/" alt="Acesse Já">acessse já</a></u></p>
 </div>
 
-😎 Para entender como funciona e como tirar melhor proveito, 📙 acesso o html principal deste código e vejo o código comentado dele. Lá, você encontrará um 🤯 "Sumário" para a navegação no código no index.js e para 🧐 compreender melhor o que acontece no console da página.
-
-📖 Se caso desejar apenas consultar para ler ou servir de biblioteca para suas  Dúvidas acesse [O Site de Notas](https://notes-hcode-js.web.app)
-
-### **・OBS: 🌐 Esse repositório é atualizado toda semana então fique ligado**
+<div align="center">
+    <p>😎 Para entender como funciona e como tirar melhor proveito, 📙 acesso o html principal deste código e vejo o código comentado dele. Lá, você encontrará um 🤯 "Sumário" para a navegação no código no index.js e para 🧐 compreender melhor o que acontece no console da página.</p>
+    <p>📖 Se caso desejar apenas consultar para ler ou servir de biblioteca para suas  Dúvidas acesse <a href="https://notes-hcode-js.web.app" alt="O Site de Notas">O Site de Notas</a></p>
+    <h3><b>・OBS: 🌐 Esse repositório é atualizado toda semana então fique ligado</b></h3>
+</div>
 
 <div align="center">
     <h3><b>Para ficar ligado e não perder nada, na comunidade abaixo do Discord para saber dos próximos commits</b></h3>
