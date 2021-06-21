@@ -226,7 +226,10 @@ console.log(resultado1);
 
 // Então por aqui temos um exemplo de soma usando a mais comum função
 
-function calc(x1, x2, operator){
+
+// Função
+
+function calc1(x1, x2, operator){
     // Primeiramente já mudamos o nome da nossa function para "calc", uma vez que não iremos apenas somar, mas sim calcular um valor
     // Agora nos parâmetros temos o "operator" que será o operador para realizar a nossa conta
 
@@ -235,11 +238,14 @@ function calc(x1, x2, operator){
     
 }
 
-let resultado2 = calc(1, 2, "-");
+let resultado2 = calc1(1, 2, "-");
 
 console.log(resultado2);
 
 // Para tornarmos essa função um tanto mais completa, teremos agora uma verdadeira calculadora tendo agora um operador
+
+
+// Função Anônima
 
 (function(x1, x2, operator){
 
@@ -251,4 +257,19 @@ console.log(resultado2);
 // Essa é a "função anônima"
 // Nela fazemos uma função, ou um bloco de código para ser executado no momento em que ela é criada. Assim, não damos nome a ela, pois ela está no anonimato, e colocamos um parênteses para indicar que ela é um valor. Logo após fechá-la com parênteses, abrimos o outro parênteses para executar aquela determinada função
 
-// EM BREVE A EXPLICAÇÃO E NOTAS DA ARROW FUNCTION...
+
+// ArrowFunction
+
+let calc2 = (x1, x2, operator) => {
+    
+    return eval(`${x1} ${operator} ${x2}`);
+
+}
+
+let resultado3 = calc2(1, 2, "/");
+
+console.log(resultado3);
+
+// Acima temos uma forma mais nova e recente de criar funções. A ArrowFunction
+
+// Continua...
