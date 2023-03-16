@@ -38,8 +38,8 @@
 <table align="center">
 	<tr>
 		<td>
-            <a href="https://github.com/GR-sh/spotify-clone/graphs/contributors">
-              <img src="https://contrib.rocks/image?repo=GR-sh/spotify-clone" />
+            <a href="https://github.com/guidsribeiro/hc-curso-javascript/graphs/contributors">
+              <img src="https://contrib.rocks/image?repo=guidsribeiro/hc-curso-javascript" />
             </a>
         </td>
 	</tr>
